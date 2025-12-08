@@ -33,8 +33,6 @@ public class Collectible2D : MonoBehaviour
         }
 
     }
-
-
 }
 
 
