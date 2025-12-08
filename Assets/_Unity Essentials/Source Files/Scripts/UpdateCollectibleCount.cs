@@ -30,6 +30,7 @@ public class UpdateCollectibleCount : MonoBehaviour
         Type collectibleType = Type.GetType("Collectible");
         if (collectibleType != null)
         {
+            // Counts the number of objects matching the specified type
             totalCollectibles += UnityEngine.Object.FindObjectsOfType(collectibleType).Length;
         }
 

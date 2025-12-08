@@ -25,10 +25,13 @@ public class Collectible2D : MonoBehaviour
             Destroy(gameObject);
 
             // Instantiate the particle effect
-            Instantiate(onCollectEffect, transform.position, transform.rotation);
+
+            if (onCollectEffect != null)
+            {
+                Instantiate(onCollectEffect, transform.position, transform.rotation);
+            }
         }
 
-        
     }
 
 
