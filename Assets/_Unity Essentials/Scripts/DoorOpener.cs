@@ -18,6 +18,7 @@ public class DoorOpener : MonoBehaviour
        // Check if the object entering the trigger is the player (or another specified object)
        if (other.CompareTag("Player")) // Make sure the player GameObject has the tag "Player"
        {
+            Debug.Log("HIT DOOR");
            if (doorAnimator != null)
            {
                // Trigger the Door_Open animation
