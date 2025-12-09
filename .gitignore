@@ -14,6 +14,7 @@
 
 # Ms. Whitby
 .vscode/
+.vsconfig
 *.zip
 .idea/
 
