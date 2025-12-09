@@ -15,7 +15,7 @@
 # Ms. Whitby
 .vscode/
 *.zip
-/[Ww]eb[Bb]uilds/
+# /[Ww]eb[Bb]uilds/
 .idea/
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
